@@ -1,10 +1,10 @@
 body { 
 	background-color : grey;
-	margin-left: 22%;
-	margin-right: 22%;	
+	margin-left: 21.5%;
+	margin-right: 21.5%;	
 	border: 3px dotted blue;
-	padding: 10px 10px 10px 10px
-	font-famil:Arial,sans-serif;
+	padding: 10px 10px 10px 10px;
+	font-family: Arial,sans-serif;
 	}
 p{
 	text-align: center;
@@ -15,11 +15,28 @@ h1, h2{
     text-align: center;
     color: red;
 }
+h3{
+	text-align: center;
+	color: green;
+}
 
 .main-header{
 	text-align: center;
 }
 
 img.comic {
-    border:1px solid red;
+    	border:1px solid red;
+    	margin-left: auto;
+    	margin-right: auto;
+}
+
+p.password{
+	font-size: 150%;
+}
+
+div {
+	border-radius: 25px;
+	padding: 5px;
+	background-color: Darkgray;
+	margin: 5px;
 }
