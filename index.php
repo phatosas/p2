@@ -12,7 +12,7 @@
 	<img src="images/mybannerimage.jpg" alt="Banner Image"/>
 </header>
 <body>
-	<form action='index.php' method='POST'>
+	<form action='index.php' method='GET'>
 		<div>
 			<h1>xkcd password generator</h1>
 			<p>
@@ -23,7 +23,7 @@
 		<div>
 			<h3>Enter the number of words</h3>
 			<p>
-				<input type='text' name='num_words' value=''>  (Max 9)
+				<input type='text' style='width:20px' name='num_words' value=''>  (Max 9)
 				<br>
 			</p>
 		</div>
@@ -38,8 +38,8 @@
 		<div>
 			<h3>Other Options</h3>
 			<p>
-				<input type='checkbox' autocomplete="off" name='add_number' value='add_number'> Add a number<br>
-				<input type='checkbox' autocomplete="off" name='add_symbol' value='add_symbol'>Add a symbol<br>
+				<input type='checkbox' name='add_number' value='add_number'> Add a number<br>
+				<input type='checkbox' name='add_symbol' value='add_symbol'>Add a symbol<br>
 			</p>
 		</div>
 	</form>
