@@ -21,6 +21,11 @@
 			<p>
 				<input type='text' style='width:20px' name='num_words' value=''>  (Max 9)
 				<br>
+				<?php
+					if($invalid == TRUE){
+						echo "Invalid number entered. Showing default 4 word password.";
+					}
+				?>
 			</p>
 		</div>
 		<div>
