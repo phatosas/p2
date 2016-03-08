@@ -4,13 +4,9 @@
 	<title>xkcd password generator</title>
 	<meta charset='utf-8'>
 	<link rel='stylesheet' href='style.css'>
-
 	<?php require('logic.php') ?>
 </head>
 
-<header class="main-header" role="banner">
-	<img src="images/mybannerimage.jpg" alt="Banner Image"/>
-</header>
 <body>
 	<form action='index.php' method='GET'>
 		<div>
