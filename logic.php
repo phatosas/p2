@@ -15,7 +15,7 @@ $num_words = 4;
 $invalid = FALSE;
 
 if (isset($_GET["num_words"])){
-	if($_GET["num_words"] == "" || $_GET["num_words"] <1 || $_GET["num_words"] > 9){
+	if($_GET["num_words"] == "" || $_GET["num_words"] <=1 || $_GET["num_words"] > 9){
 		$invalid = TRUE;
 		$num_words = 4;
 	} else {

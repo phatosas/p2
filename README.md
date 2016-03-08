@@ -16,10 +16,10 @@ The password produced are easy to remember but also difficult to decrypt using m
 
 ## Details
 The webpage by default would generate a 4 word password seperated by spaces. However you have the 
-option of using camel case or hyphens as seperators between the words. You can also reduce or increase 
-the number of words used to form the password. If you enter a number less than 1 or greater than 9, it 
-automatically defaults back to 4 words. Finally the website allows you append the password with a 
-number and/or special character at the end of the password to make the password stronger. The special 
+option to reduce or increase the number of words used to form the password. You also have the option 
+to use camelcase words or hyphens as seperators between words. If you enter a number less than or 
+equal to one or greater than 9, it automatically defaults back to 4 words. Finally the website allows you append the 
+password with a number and/or special character at the end of the password to make the password stronger. The special 
 character and number are selected at random to add to the end of the password. 
 # p2
 
